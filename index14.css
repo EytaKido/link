@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 5000px;
+}
+.navbar_top{
+    width: 100%;
+    height: 44px;
+    background-color: #000c;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+}
+.nav_container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav_logo img{
+    width: 20px;
+}
+.nav_collection{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nav_item{
+    color: #d6d6d6;
+    font-size: 12px;
+}
+.nav_item:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.nav_item i{
+    font-size: 14px;
+}
+.navbar_bottom{
+    width: 100%;
+    height: 44px;
+    background-color: #f5f5f7;
+    text-align: center;
+}
+.navbar_bottom p{
+    line-height: 44px;
+    font-size: 12px;
+}
+.navbar_bottom p a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.banner{
+    width: 100%;
+    height: 510px;
+    text-align: center;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.pro13{
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg");
+}
+
+.banner h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.banner h3{
+    padding: 16px 0;
+    font-size: 32px;
+    font-weight: 300;
+}
+.banner_links a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin: 0 16px;
+    font-size: 20px;
+}
+.pro{
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg");
+}
+.pro h1{
+    color: #fff;
+}
+.pro h3{
+    color: #fcc0e9;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid_item{
+    width: 50%;
+    height: 700px;
+    border: 5px solid #fff;
+    background: pink;
+}
+.profi{
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_large.jpg");
+    padding-top: 20px;
+}
+.profi h3{
+    color: #1D1D1F;
+}
+.ilova{
+    color: #BF4800;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    display: block;
+}
+.image{
+    width: 55px;
+}
+
+.sit{
+    background-image:url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg")
+}
+.grid_item{
+    height: 510px;
+    text-align: center;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.grid_item h3{
+    color: #1D1D1F;
+}
+.sit a{
+    text-decoration: none;
+    color: #D48658;
+}
+.sird{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg");
+}
+
+.bank_links a{
+    color: black;
+    text-decoration: none;
+    margin: 0 16px;
+    font-size: 20px;
+}
+.sird h1{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 500px;
+    color: #1D1D1F;
+}
+.sird h3{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+.bank_links{
+    margin-top: 10px;
+}
+
+.three{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg");
+}
+ .three h1{
+     color: #F5F5F7;
+     margin: auto;
+     font-size: 45px;
+ }
+ .three h3{
+     color: #f5f5f7;
+     width: 60%;
+     margin: auto;
+    font-size: 25px;
+    font-weight: 80;
+ }
+ 
+.banner_links {
+    margin-top: 10px;
+}
+.four{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/airpods/tile_airpods__fuv6vgn42y2q_large.jpg");
+}
+.four h1{
+    padding-top: 320px;
+}
+.four h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.four h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+.five{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
+}
+.five img{
+    width: 150px;
+}
+.five h3{
+    font-weight: 100;
+
+}
+.six{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-pretzel-puppies/promo_pap__f9gkgbnl2biy_large.jpg");
+}
+.rasm{
+    display: block;
+    margin: auto;
+    width: 90px;
+}
+.salut{
+    margin-top: 260px;
+    width: 420px;
+}
+.six h3{
+    color: #FEFFFE;
+    width: 40%;
+    margin: auto;
+}
+.banners_links a{
+    color: #FBFDF9;
+    text-decoration: none;
+}
+
+.footer{
+    width: 70%;
+    margin: auto;
+}
+.text{
+    margin-top: 15px;
+    color: #7D7D81;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
